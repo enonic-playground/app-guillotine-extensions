@@ -1,0 +1,26 @@
+.DS_Store
+build/
+temp/
+temp/*.*
+target/
+.gradle/
+node_modules/
+*.iws
+*.ids
+*.iml
+*.ipr
+.idea/*
+!.idea/codeStyles/
+.sass-cache
+npm-debug.log
+.tscache
+.eslintcache
+.tab
+.tmp
+generated-java
+classes/
+out/
+.xp/
+
+# Visual Studio Code
+bin/

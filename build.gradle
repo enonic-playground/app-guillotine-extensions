@@ -1,0 +1,18 @@
+plugins {
+    id 'com.enonic.defaults' version '2.1.5'
+    id 'com.enonic.xp.app' version '3.4.0'
+}
+
+app {
+    name = project.appName
+    displayName = 'App Guillotine Extensions'
+    vendorName = 'Enonic AS'
+    vendorUrl = 'https://enonic.com'
+    systemVersion = "${xpVersion}"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    xp.enonicRepo( 'dev' )
+}

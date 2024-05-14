@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-type xmlns="urn:enonic:xp:model:1.0">
+  <display-name>Person</display-name>
+  <description>Person</description>
+  <super-type>base:structured</super-type>
+  <form>
+    <input name="firstName" type="TextLine">
+      <label>First Name</label>
+    </input>
+    <input name="lastName" type="TextLine">
+      <label>Last Name</label>
+    </input>
+    <input name="age" type="TextLine">
+      <label>Age</label>
+    </input>
+  </form>
+</content-type>
